@@ -40,7 +40,9 @@ vykon = CALCULATE(SUM(FBaleniKnih[pocet_zabalenych_knih])/SUM(FBaleniKnih[naklad
 ### Klíčové metriky
 **Plánovaný počet knih**: metrika, která počítá, kolik knih se očekává, že bude zpracováno s ohledem na pracovní dobu očištěnou od vedlejších pracovních činností a stanovenou rychlost vyjádřenou knihy/minuty.
 
+**Plánovaný výkon**: metrika, která počítá, kolik knih musí pracovník zpracovat za jednu korunu čistého času
 **Výkon**: metrika, která počítá, kolik knih zpracuje pracovník za jednu korunu čistého pracovního času.
+
 
 **Počet zabalených knih vzhledem k plánu**: metrika, která ukazuje trend, jak pracovníci plní plán.
 
