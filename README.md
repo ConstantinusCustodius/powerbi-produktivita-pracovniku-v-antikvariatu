@@ -62,6 +62,8 @@ Mezi zkoumané metriky v dashboardu patří výkon pracovníka a počet zabalen�
 ## Výsledky
 S ohledem na to, že všechna data jsou fiktivní a počet zabalených knih byl určen generátorem náhodných čísel pro testovací účely, bylo zjištěno, že nejlépe pracoval Jakub Kolář, který za dobu od 1. do 12. září zpracoval 6142 knih a má výkon 0,51 knih za korunu, nejhorší výsledky má Martin Poláček s počtem knih 4858 a výkonem 0,40 knih za korunu. Průměrný výkon tvoří 0,46 knih za korunu. Plán tvoří 2,5 knihy za minutu.
 
+## Poděkování
+Děkuji antikvariátu N za příležitost seznámit se s pracovním procesem a inspiraci vytvořit daný projekt 
 
 ## Jak používat aplikaci
 1. Stáhnout [repozitář](aplikace.pbix)
