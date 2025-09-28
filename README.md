@@ -25,7 +25,7 @@ Datový model se skládá z 4 dimenzí a 1 faktové tabulky
 **Faktové tabulky**: 
 FBaleniKnih: vyjádřuje pracovní proces a obsahuje identifikátory dimenzí, časové hodnoty pracovníka, stanovenou mzdu, počet zabalených knih podle plánu a skutečnosti a rychlost vyjádřenou v knihách za minutu. Plánovaná rychlost je předem stanovená, zbytek zaleží na skutečném počtu zabalených knih. 
 
-
+[Odkaz na Excel:](baleni-knih-model.xlsx)
 ## Předzpracování datového modelu v PowerBI
 V rámci předzpracování bylo provedeno čištění dat. Pro časové hodnoty byl zvolen přislušný typ a formát dat. Dále podle DAX vzorců byl vytvořen sloupec, který počítá náklady na hlavní činnost, a metriky.
 
@@ -64,6 +64,6 @@ S ohledem na to, že všechna data jsou fiktivní a počet zabalených knih byl 
 
 
 ## Jak používat aplikaci
-1. Stáhnout repozitář.
+1. Stáhnout [repozitář](aplikace.pbix)
 2. Otevřit aplikaci v [**PowerBI Desktop**](https://www.microsoft.com/en-us/power-platform/products/power-bi/desktop).
 3. Zkoumat dashboard a sledovat výkon stroje a jména pracovníka v čase
