@@ -14,13 +14,13 @@ Na to mu může pomocí odpovědět daná aplikace, která má dva cíle:
 5. Jak otevřit aplikaci
 
 ## Popis datového modelu
-Datový model se skládá z 4 dimenzí a 1 faktové tabulky
+Datový model se skládá z 4 dimenzí a 1 faktové tabulky.
 
 **Dimenze**:
-1. DimDatum: obsahuje informace o datumech, kdy pracovníci přicházejí do práce
-2. DimPracovnik: obsahuje jméno a přijmení pracovníka
-3. DimStroj: obsahuje informace o pořadí stroje, datumu a ceně pořízení a prodeje
-4. DimPlanSkutecnost: dimenze rozlišuje plánované a skutečné hodnoty pro pracovníka
+1. DimDatum: obsahuje informace o datumech, kdy pracovníci přicházejí do práce.
+2. DimPracovnik: obsahuje jméno a přijmení pracovníka.
+3. DimStroj: obsahuje informace o pořadí stroje, datumu a ceně pořízení a prodeje.
+4. DimPlanSkutecnost: dimenze rozlišuje plánované a skutečné hodnoty pro pracovníka.
 
 **Faktové tabulky**: 
 FBaleniKnih: vyjádřuje pracovní proces a obsahuje identifikátory dimenzí, časové hodnoty pracovníka, stanovenou mzdu, počet zabalených knih podle plánu a skutečnosti a rychlost vyjádřenou v knihách za minutu. Plánovaná rychlost je předem stanovená, zbytek zaleží na skutečném počtu zabalených knih. 
@@ -40,7 +40,7 @@ vykon = CALCULATE(SUM(FBaleniKnih[pocet_zabalenych_knih])/SUM(FBaleniKnih[naklad
 ### Klíčové metriky
 **Plánovaný počet knih**: metrika, která počítá, kolik knih se očekává, že bude zpracováno s ohledem na pracovní dobu očištěnou od vedlejších pracovních činností a stanovenou rychlost vyjádřenou knihy/minuty.
 
-**Plánovaný výkon**: metrika, která počítá, kolik knih musí pracovník zpracovat za jednu korunu čistého času
+**Plánovaný výkon**: metrika, která počítá, kolik knih musí pracovník zpracovat za jednu korunu čistého času.
 **Výkon**: metrika, která počítá, kolik knih zpracuje pracovník za jednu korunu čistého pracovního času.
 
 
@@ -63,9 +63,9 @@ Mezi zkoumané metriky v dashboardu patří výkon pracovníka a počet zabalen�
 S ohledem na to, že všechna data jsou fiktivní a počet zabalených knih byl určen generátorem náhodných čísel pro testovací účely, bylo zjištěno, že nejlépe pracoval Jakub Kolář, který za dobu od 1. do 12. září zpracoval 6142 knih a má výkon 0,51 knih za korunu, nejhorší výsledky má Martin Poláček s počtem knih 4858 a výkonem 0,40 knih za korunu. Průměrný výkon tvoří 0,46 knih za korunu. Plán tvoří 2,5 knihy za minutu.
 
 ## Poděkování
-Děkuji antikvariátu N za příležitost seznámit se s pracovním procesem a inspiraci vytvořit daný projekt 
+Děkuji antikvariátu N za příležitost seznámit se s pracovním procesem a inspiraci vytvořit daný projekt.
 
 ## Jak používat aplikaci
-1. Stáhnout [repozitář](aplikace.pbix)
+1. Stáhnout [repozitář](aplikace.pbix).
 2. Otevřit aplikaci v [**PowerBI Desktop**](https://www.microsoft.com/en-us/power-platform/products/power-bi/desktop).
-3. Zkoumat dashboard a sledovat výkon stroje a jména pracovníka v čase
+3. Zkoumat dashboard a sledovat výkon stroje a jména pracovníka v čase.
