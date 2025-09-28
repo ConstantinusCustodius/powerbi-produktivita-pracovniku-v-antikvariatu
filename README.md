@@ -49,6 +49,13 @@ vykon = CALCULATE(SUM(FBaleniKnih[pocet_zabalenych_knih])/SUM(FBaleniKnih[naklad
 Dashboard obsahuje název, přůřez v čase, sloupcový graf a dvě klíčové metriky.
 Sloupcový graf má na ose X jméno pracovníka a název stroje, na ose Y počet zabalených knih. Každý sloupec má barvu v závislosti na gradaci, kde červená barva znamená rychlost 0 knih/min, zelená barva znamená nejvyšší možnou hodnotu rychlosti.
 Mezi zkoumané metriky v dashboardu patří výkon pracovníka a počet zabalených knih vzhledem k plánu.
+### Dashboard
+![Hlavní dashboard](dashboard.jpg)
+### Ukázka grafu
+![Graf](graf.jpg)
+
+### Ukázka KPI
+![KPI](kpi.jpg)
 
 ## Výsledky
 S ohledem na to, že všechna data jsou fiktivní a počet zabalených knih byl určen generátorem náhodných čísel pro testovací účely, bylo zjištěno, že nejlépe pracoval Jakub Kolář, který za dobu od 1. do 12. září zpracoval 6142 knih a má výkon 0,51 knih za korunu, nejhorší výsledky má Martin Poláček s počtem knih 4858 a výkonem 0,40 knih za korunu. Průměrný výkon tvoří 0,46 knih za korunu. Plán tvoří 2,5 knihy za minutu.
